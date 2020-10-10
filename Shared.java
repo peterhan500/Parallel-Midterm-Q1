@@ -1,7 +1,7 @@
 public class Shared {
 	private static int result = 0;
 	
-	public static void increment() {
+	public static synchronized void increment() {
 		result++;
 	}
 	
